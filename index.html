@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>Poquedex</title>
+</head>
+
+<body>
+    <div id="tittle">
+        <img src="./Images/pokemon.png" alt="">
+    </div>
+
+    <form action="" id = "search-form">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Ingresa el código del pokemon a buscar:</span>
+            </div>
+            <input type="number" id="input" class="form-control" placeholder="#000" aria-label="Username" aria-describedby="basic-addon1">
+            <button type="submit" class="btn btn-light"id="btmForm">Enviar</button>
+          </div>
+    </form>
+
+
+    <form action="" id = "search-form-name">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Ingresa el nombre del pokemon a buscar:</span>
+            </div>
+            <input type="text" id="input-name" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+            <button type="submit" class="btn btn-light"id="btmForm-name">Enviar</button>
+          </div>
+    </form>
+
+
+    <section class="pokemon-container">
+
+    </section>
+
+
+    <section id='button-section'>
+        <button type="button" class="btn btn-light"id="previous">Anterior</button>
+        <button type="button" class="btn btn-light"id="next">Siguiente</button>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
